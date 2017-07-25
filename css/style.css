@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: "arial", "sans-serif";
+    background-color: #f1f1f1;
+    min-height: 100%;
+}
+
+.search {
+    padding-top: 40px;
+}
+
+.search-form {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+
+.search-input {
+    outline: none;
+    background: transparent;
+    width: 100%;
+    padding: 0 80px 0 10px;
+    font-weight: 700;
+    font-size: 7em;
+    color: #ec5a62;
+    border: none;
+}
+
+.search-submit {
+    position: absolute;
+    background: url("../img/magnifier.svg") 0 0 repeat;
+    text-indent: -9999px;
+    background-size: 100%;
+    border: none;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    top: 50%;
+    right: 0;
+}
+
+.search-content {
+    color: #333;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 10.5%;
+    font-size: 0;
+}
+
+.tabl {
+    font-size: 1rem;
+    width: 30%;
+    padding: 0 0 6em;
+    display: inline-block;
+}
+
+.tabl:nth-child(2) {
+    margin: 0 5%;
+}
+
+.tabl-title {
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #c2c2c2;
+}
+
+.search-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.search-list h3 {
+    vertical-align: middle;
+    font-size: 0.85em;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    width: calc(100% - 70px);
+    color: inherit;
+}
+
+.search-list img {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.search-list a {
+    padding: 0.75em;
+    display: block;
+    margin: 0.3em 0;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgba(118,117,128,0.05);
+    color: rgba(145,145,145,0.7);
+}
+
+.search-list a:hover{
+    color: #EC5A62;
+}
+
+.search-list a:hover,
+.search-list a:focus {
+    background: rgba(118,117,128,0.1);
+}
