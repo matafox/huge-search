@@ -1,3 +1,6 @@
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
 html {
     height: 100%;
     min-height: 100%;
@@ -39,7 +42,7 @@ body {
     width: 80px;
     height: 80px;
     overflow: hidden;
-    top: 50%;
+    top: 25%;
     right: 0;
 }
 
@@ -51,18 +54,18 @@ body {
     font-size: 0;
 }
 
-.tabl {
+.column {
     font-size: 1rem;
     width: 30%;
     padding: 0 0 6em;
     display: inline-block;
 }
 
-.tabl:nth-child(2) {
-    margin: 0 5%;
+.column:nth-child(2) {
+    margin: 0 1%;
 }
 
-.tabl-title {
+.column-title {
     font-size: 1em;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -70,13 +73,13 @@ body {
     color: #c2c2c2;
 }
 
-.search-list{
+.column-list{
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.search-list h3 {
+.column-list h3 {
     vertical-align: middle;
     font-size: 0.85em;
     display: inline-block;
@@ -86,14 +89,14 @@ body {
     color: inherit;
 }
 
-.search-list img {
+.column img {
     display: inline-block;
     width: 50px;
     margin: 0 10px 0 0;
     vertical-align: middle;
 }
 
-.search-list a {
+.column-list a {
     padding: 0.75em;
     display: block;
     margin: 0.3em 0;
@@ -103,11 +106,11 @@ body {
     color: rgba(145,145,145,0.7);
 }
 
-.search-list a:hover{
+.column-list a:hover{
     color: #EC5A62;
 }
 
-.search-list a:hover,
-.search-list a:focus {
+.column-list a:hover,
+.column-list a:focus {
     background: rgba(118,117,128,0.1);
 }
